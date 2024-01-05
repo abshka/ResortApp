@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Фото курорта (на 3/5 экрана) -->
+    <ImageView
+        android:id="@+id/imageViewResort"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/resort"
+        android:scaleType="centerCrop" />
+
+    <!-- Описание курорта (на 1/5 экрана) -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/resort_description"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <!-- Цена брони -->
+    <TextView
+        android:id="@+id/textViewPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/price1000"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <!-- Поле для ввода даты брони -->
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pickdate"
+        android:padding="16dp"
+        android:inputType="date" />
+
+    <!-- Кнопка "Заказать" -->
+    <Button
+        android:id="@+id/buttonOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/order"
+        android:padding="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Resort</string>
+    <string name="order">Заказать</string>
+    <string name="pickdate">Введите дату брони</string>
+    <string name="price1000">Цена брони: $1000</string>
+    <string name="resort_description">Роскошный курорт в самом сердце России приглашает вас на незабываемый отдых. Погрузитесь в атмосферу уюта и комфорта, наслаждаясь изысканным сервисом и прекрасными видами природы.</string>
+</resources>
